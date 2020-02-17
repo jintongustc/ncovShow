@@ -7,7 +7,7 @@
 * avoid duplicated data by checking if the key numbers equal to the previous data
 * Python packages applied: BeatifulSoup, re, pymongo
 * Used some code from DXYnCov project
-![alt text]()
+![access](https://github.com/jintongustc/ncovShow/blob/master/access_db.png)
 
 ### folder: nCov_html
 
