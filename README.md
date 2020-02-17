@@ -1,7 +1,7 @@
 # ncovShow
 
 ### object of the project
-* Record the history of the virus event for later analysis
+* Record the history of the virus event for later analysis by scrawling the medicine related website(http://www.dxy.cn/)
 * Show the instantenous key data, for avoiding extra time spend in checking cell phone.
 
 ### folder: nCov_2019
