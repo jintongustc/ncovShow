@@ -17,6 +17,10 @@
 ### folder: nCov_html
 
 * Visualize the data, visualize the time series of the nCov virus in China and Global
-* Python packages: Django, matplotlib, pymongo
+* Python packages: Django, Bokeh, pymongo
+* Followed by the very clear tutorial: https://hackernoon.com/integrating-bokeh-visualisations-into-django-projects-a1c01a16b67a
+* Current status, kinda of ugly, but at least we have the data of Shandong province, where is my wife's hometown.
+
+![current status](https://github.com/jintongustc/ncovShow/blob/master/curr.png)
 
 

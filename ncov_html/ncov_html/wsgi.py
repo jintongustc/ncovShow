@@ -1,5 +1,5 @@
 """
-WSGI config for django_nCov project.
+WSGI config for ncov_html project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_nCov.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ncov_html.settings')
 
 application = get_wsgi_application()
