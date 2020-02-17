@@ -32,7 +32,7 @@ class Crawler:
     def run(self):
         while True:
             self.crawler()
-            time.sleep(10)
+            time.sleep(60)
 
     def crawler(self):
         while True:
@@ -65,7 +65,7 @@ class Crawler:
         overall_information = json.loads(overall_information.group(0))
 
         overall = {}
-        overall['modifyTime'] = overall_information['modifyTime']
+        #overall['modifyTime'] = overall_information['modifyTime']
         overall['currentConfirmedCount'] = overall_information['currentConfirmedCount']
         overall['confirmedCount'] = overall_information['confirmedCount'] 
         overall['suspectedCount'] = overall_information['suspectedCount']
@@ -87,7 +87,7 @@ class Crawler:
             data_upload['provinceName'] = province['provinceName']
             data_upload['provinceShortName'] = province['provinceShortName']
             
-            data_upload['modifyTime'] = province['modifyTime']
+            #data_upload['modifyTime'] = province['modifyTime']
             data_upload['currentConfirmedCount'] = province['currentConfirmedCount']
             data_upload['confirmedCount'] = province['confirmedCount'] 
             data_upload['suspectedCount'] = province['suspectedCount']
@@ -105,6 +105,7 @@ class Crawler:
         for area in area_information:
             area.pop('comment')
             area.pop('locationId')
+            #area.pop('modifyTime')
             if self.db.find_one(collection='DXYArea', data=area):
                 continue
             area['country'] = '中国'
@@ -119,7 +120,7 @@ class Crawler:
             data_upload['countryName'] = country['provinceName']
             data_upload['countryShortName'] = country['provinceShortName']
             data_upload['continents'] = country['continents']
-            data_upload['modifyTime'] = country['modifyTime']
+            #data_upload['modifyTime'] = country['modifyTime']
             data_upload['currentConfirmedCount'] = country['currentConfirmedCount']
             data_upload['confirmedCount'] = country['confirmedCount'] 
             data_upload['suspectedCount'] = country['suspectedCount']
