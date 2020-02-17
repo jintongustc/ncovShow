@@ -2,7 +2,7 @@
 
 ### object of the project
 * Record the history of the virus event for later analysis by scrawling the medicine related website(http://www.dxy.cn/)
-* Show the instantenous key data, for avoiding extra time spend in checking cell phone.
+* Show the instantenous key data, for avoiding extra time spend in checking cell phone everyday, haha.
 
 ### folder: nCov_2019
 * Use web crawler to access the nCov data from chinese website DXY.
