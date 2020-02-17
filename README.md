@@ -6,7 +6,8 @@
 * If you want to store the data into your local mongodb, just modify "service/db.py"
 * avoid duplicated data by checking if the key numbers equal to the previous data
 * Python packages applied: BeatifulSoup, re, pymongo
-* Used some code from DXYnCov project
+* Part of code modified from DXYnCov project
+* The data base could be access by the command show bellow
 ![access](https://github.com/jintongustc/ncovShow/blob/master/access_db.png)
 
 ### folder: nCov_html
