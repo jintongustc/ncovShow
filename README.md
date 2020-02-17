@@ -1,5 +1,9 @@
 # ncovShow
 
+### object of the project
+* Record the history of the virus event for later analysis
+* Show the instantenous key data, for avoiding extra time spend in checking cell phone.
+
 ### folder: nCov_2019
 * Use web crawler to access the nCov data from chinese website DXY.
 * run python main.py, the data can be crawbed and stored in the mongodb database. 
